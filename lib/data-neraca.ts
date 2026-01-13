@@ -48,20 +48,36 @@ export const latestAnalysis = [
         title: "Mengapa Share Bank Syariah Susah Tembus 10%?",
         date: "14 Jan 2026",
         category: "ANALISIS DATA",
-        excerpt: "Bukan hanya soal 'kurang religius', data menunjukkan masalah struktural pada pricing dan aksesibilitas."
+        author: "Tim Riset Neraca",
+        image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&q=80&w=2070",
+        excerpt: "Bukan hanya soal 'kurang religius', data menunjukkan masalah struktural pada pricing dan aksesibilitas.",
+        content: `Narasi yang sering beredar adalah masyarakat belum memilih bank syariah karena kurangnya literasi agama. Namun, data menunjukkan realitas yang lebih pragmatis: Pricing (harga/bagi hasil) dan Accessibility (kemudahan akses).
+Biaya dana (Cost of Funds) perbankan syariah di Indonesia relatif lebih tinggi dibandingkan konvensional. Hal ini memaksa bank syariah untuk mematok marjin pembiayaan yang lebih tinggi agar tetap profit. Akibatnya, bagi konsumen rasional—terlepas dari preferensi religiusnya—cicilan KPR atau pembiayaan modal kerja di bank syariah seringkali jatuh lebih mahal.
+Data OJK menunjukkan bahwa Net Interest Margin (NIM) bank konvensional dan Net Imbalan (NI) bank syariah memiliki gap yang konsisten. Efisiensi operasional menjadi PR besar. Bank Syariah Indonesia (BSI) sebagai market leader mulai menunjukkan perbaikan efisiensi sejak merger, namun pemain lapis kedua masih berjuang dengan skala ekonomi (economies of scale).
+Solusinya bukan sekadar kampanye "Hijrah ke Bank Syariah", melainkan reformasi struktural: insentif pajak dari pemerintah untuk deposito syariah, digitalisasi agresif untuk memangkas biaya operasional, dan fokus pada produk diferensiasi (seperti Gadai Emas yang terbukti sukses) daripada sekadar menjadi cermin (mirroring) produk konvensional.`
     },
     {
         id: "2",
         title: "Peta Kantong Kemiskinan di Basis Pesantren",
         date: "12 Jan 2026",
         category: "INDEKS UMAT",
-        excerpt: "Korelasi antara wilayah basis tradisional dengan indeks pembangunan manusia (IPM) yang rendah."
+        author: "Divisi Sosial",
+        image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=2013",
+        excerpt: "Korelasi antara wilayah basis tradisional dengan indeks pembangunan manusia (IPM) yang rendah.",
+        content: `Sebuah paradoks pembangunan terjadi di kantong-kantong demografi santri. Data BPS yang disandingkan dengan sebaran Pesantren dari Kemenag menunjukkan korelasi spasial yang mengkhawatirkan: wilayah dengan densitas pesantren tinggi seringkali beririsan dengan wilayah berkategori "Indeks Pembangunan Manusia (IPM) Menengah-Bawah".
+Faktor penyebabnya multidimensi. Pertama, akses pendidikan formal di wilayah ini seringkali tertinggal. Kedua, rendahnya akses permodalan formal. Pesantren mandiri secara ekonomi, namun masyarakat sekitarnya seringkali tidak terintegrasi dalam rantai pasok ekonomi modern.
+Program "Ekonomi Umat" yang digulirkan pemerintah seringkali bersifat top-down (bantuan langsung) dan bukan bottom-up (pemberdayaan rantai nilai). Data menunjukkan bahwa program Bank Wakaf Mikro (BWM) cukup efektif memberikan akses modal, namun skalanya masih terlalu kecil untuk menggeser angka kemiskinan secara agregat di tingkat kabupaten/kota.`
     },
     {
         id: "3",
         title: "Sukuk Ritel: Instrumen Penyelamat APBN?",
         date: "10 Jan 2026",
         category: "FINANCE",
-        excerpt: "Data kepemilikan Sukuk Negara didominasi oleh investor individu, membuktikan likuiditas umat yang tinggi."
+        excerpt: "Data kepemilikan Sukuk Negara didominasi oleh investor individu, membuktikan likuiditas umat yang tinggi.",
+        author: "Market Analyst",
+        image: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&q=80&w=2070",
+        content: `Setiap kali pemerintah menerbitkan Sukuk Ritel (SR) atau Sukuk Tabungan (ST), kuota pemesanan hampir selalu habis sebelum masa penawaran berakhir. Fenomena ini membuktikan dua hal: Pertama, likuiditas di tangan investor ritel (umat) sangat besar. Kedua, ada kelaparan (appetite) yang tinggi terhadap instrumen investasi yang aman dan sesuai syariah.
+Hingga akhir kuartal lalu, total outstanding Surat Berharga Syariah Negara (SBSN) terus mendominasi proporsi pembiayaan proyek infrastruktur. Mulai dari jembatan, gedung universitas Islam, hingga rel kereta api, banyak yang dibiayai oleh uang umat melalui Sukuk.
+Namun, tantangannya adalah pasar sekunder. Data transaksi menunjukkan bahwa sebagian besar investor ritel memegang sukuk hingga jatuh tempo (hold to maturity). Ini bagus untuk stabilitas, namun kurang bagus untuk pendalaman pasar keuangan (financial deepening).`
     }
 ];
