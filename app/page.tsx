@@ -1,16 +1,13 @@
-
 import Navbar from "@/components/NavbarNeraca";
 import KpiCard from "@/components/KpiCard";
 import SimpleBarChart from "@/components/SimpleBarChart";
 import { zakatData, financeData, indeksData, latestAnalysis } from "@/lib/data-neraca";
 import Link from "next/link";
 import { ArrowRight, BarChart3, PieChart, Users } from "lucide-react";
-
 export default function Home() {
     return (
         <main className="min-h-screen bg-paper font-sans text-gray-900 selection:bg-primary selection:text-white">
             <Navbar />
-
             {/* Hero Section */}
             <section className="bg-white border-b border-gray-200 py-16 lg:py-24">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
@@ -33,14 +30,12 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             {/* Zakat Watch */}
             <section id="zakat" className="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center space-x-3 mb-10">
                     <BarChart3 className="w-8 h-8 text-primary" />
                     <h2 className="text-3xl font-bold font-serif">Zakat Watch</h2>
                 </div>
-
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {/* Left: KPIs */}
                     <div className="space-y-4">
@@ -59,7 +54,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             {/* Islamic Finance */}
             <section id="finance" className="py-20 bg-white border-y border-gray-200">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +61,6 @@ export default function Home() {
                         <PieChart className="w-8 h-8 text-secondary" />
                         <h2 className="text-3xl font-bold font-serif">Islamic Finance Monitor</h2>
                     </div>
-
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                         <div className="prose prose-lg text-gray-600">
                             <p className="text-xl font-light leading-relaxed">
@@ -91,14 +84,12 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             {/* Indeks Umat */}
             <section id="indeks" className="py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center space-x-3 mb-10">
                     <Users className="w-8 h-8 text-accent" />
                     <h2 className="text-3xl font-bold font-serif">Indeks Umat</h2>
                 </div>
-
                 <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
                     <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
                         <div>
@@ -118,7 +109,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             {/* Latest Analysis */}
             <section className="py-20 bg-slate-900 text-white">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,7 +133,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             {/* Simple Footer */}
             <footer className="bg-white py-12 border-t border-gray-200">
                 <div className="max-w-6xl mx-auto px-4 text-center">
