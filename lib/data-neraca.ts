@@ -1,4 +1,3 @@
-
 export interface KpiMetric {
     label: string;
     value: string;
@@ -6,14 +5,12 @@ export interface KpiMetric {
     trendUp?: boolean; // true = green/good, false = red/bad
     description?: string;
 }
-
 export interface BarData {
     label: string;
     value: number; // percentage or raw value for scaling
     displayValue: string;
     color?: string;
 }
-
 export const zakatData = {
     title: "Zakat Watch",
     subtitle: "Realisasi vs Potensi Zakat Nasional",
@@ -27,7 +24,6 @@ export const zakatData = {
     ],
     narrative: "Jurang (Gap) antara potensi dan realisasi masih sangat lebar. Digitalisasi dan literasi menjadi kunci untuk membuka gembok 90% potensi yang belum tergarap."
 };
-
 export const financeData = {
     title: "Islamic Finance Monitor",
     subtitle: "Market Share Perbankan Syariah",
@@ -36,18 +32,16 @@ export const financeData = {
         { label: "Aset Total", value: "IDR 868 T", trend: "▲ 9.2% YoY", trendUp: true } as KpiMetric,
     ]
 };
-
 export const indeksData = {
     title: "Indeks Umat",
     subtitle: "Kesejahteraan & Literasi",
     items: [
-        { label: "Tingkat Kemiskinan Umat", value: "9.5%", displayValue: "9.5% Penduduk", color: "bg-rose-500" } as BarData,
+        { label: "Tingkat Kemiskinan Umat", value: 9.5, displayValue: "9.5% Penduduk", color: "bg-rose-500" } as BarData,
         { label: "Literasi Keuangan Syariah", value: 9.1, displayValue: "9.1% (Rendah)", color: "bg-amber-500" } as BarData,
         { label: "Literasi Keuangan Umum", value: 49.6, displayValue: "49.6% Nasional", color: "bg-slate-400" } as BarData,
     ],
     narrative: "Ironi besar: Populasi Muslim mayoritas, namun literasi keuangan syariahnya jauh tertinggal dibandingkan literasi keuangan konvensional."
 };
-
 export const latestAnalysis = [
     {
         id: "1",
