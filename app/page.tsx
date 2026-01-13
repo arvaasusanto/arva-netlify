@@ -115,7 +115,7 @@ export default function Home() {
                     <h2 className="text-3xl font-bold font-serif mb-12 border-b border-slate-700 pb-6">Analisis Terbaru</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {latestAnalysis.map((item) => (
-                            <Link key={item.id} href="#" className="group">
+                            <Link key={item.id} href={`/article/${item.id}`} className="group">
                                 <article className="h-full flex flex-col">
                                     <span className="text-accent text-xs font-bold uppercase tracking-wider mb-3 block">
                                         {item.category}
