@@ -1,6 +1,4 @@
-
 import Link from 'next/link';
-
 export default function Navbar() {
     return (
         <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
@@ -13,14 +11,12 @@ export default function Navbar() {
                         </div>
                         <span className="text-xl font-bold text-gray-900 tracking-tight">NERACA<span className="text-primary">UMMAH</span></span>
                     </Link>
-
                     {/* Desktop Links */}
                     <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
-                        <Link href="#zakat" className="hover:text-primary transition-colors">Zakat Watch</Link>
-                        <Link href="#finance" className="hover:text-primary transition-colors">Islamic Finance</Link>
-                        <Link href="#indeks" className="hover:text-primary transition-colors">Indeks Umat</Link>
+                        <Link href="/#zakat" className="hover:text-primary transition-colors">Zakat Watch</Link>
+                        <Link href="/#finance" className="hover:text-primary transition-colors">Islamic Finance</Link>
+                        <Link href="/#indeks" className="hover:text-primary transition-colors">Indeks Umat</Link>
                     </div>
-
                     {/* Action */}
                     <div className="hidden md:block">
                         <a href="mailto:data@neracaummah.id" className="px-4 py-2 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition-colors">
